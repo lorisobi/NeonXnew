@@ -13,10 +13,10 @@
         "sizes": "512x512"
       }
     ],
-    "start_url": "/?source=pwa",
+    "start_url": "/NeonX/index.html",
     "background_color": "#FFFFFF",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/NeonX",
     "theme_color": "#0085ff",
     "description": "Neon X Progressive Web App",
     "screenshots": [
