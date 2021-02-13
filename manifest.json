@@ -16,7 +16,7 @@
   "start_url": "/NeonX/index.html",
   "background_color": "#FFFFFF",
   "display": "standalone",
-  "scope": "/NeonX",
+  "scope": "/NeonX/",
   "theme_color": "#0085ff",
   "description": "Neon X Progressive Web App",
   "screenshots": [
