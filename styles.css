@@ -1,0 +1,95 @@
+/* Variables */
+:root {
+    --accentcolor: #0085ff;
+    --shellcolor1: rgba(255, 255, 255, 0.6);
+    --shellcolor2: #ffffff;
+  }
+/* Custom font */
+@font-face {
+    font-family: "Work Sans";
+    src: url(Assets/Fonts/WorkSans.ttf);
+  }
+@font-face {
+    font-family: "FluentSystemIcons-Regular";
+    src: url(Assets/Fonts/FluentSystemIcons-Regular.ttf);
+  }
+@font-face {
+    font-family: "FluentSystemIcons-Filled";
+    src: url(Assets/Fonts/FluentSystemIcons-Filled.ttf);
+  }
+body {
+    background-image: url('Assets/wallpaper.png');
+    background-size:cover;
+    overflow: hidden;
+}
+* {
+    font-family: 'Work Sans';
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.9);
+    border: none;
+    outline: none;
+  }
+.icon{
+    font-family: "FluentSystemIcons-Regular";
+    font-size: 16px;
+}
+.iconfilled{
+  font-family: "FluentSystemIcons-Filled";
+  font-size: 16px;
+}
+.taskbar {
+    display: flex;
+    flex-direction: row;
+    background: var(--shellcolor1);
+    backdrop-filter: blur(20px);
+    position: absolute;
+    height: 42px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border-radius: 4px;
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
+    z-index: 3;
+   }
+.taskbarbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 50%;
+    left: 12px;
+    padding: 5px;
+    border-radius: 13px;
+    transform: translateY(-50%);
+    background: var(--shellcolor2);
+}
+    /* Text */
+h1{
+    font-weight: 500;
+    font-size: 42px;
+  }
+h2{
+    font-weight: 500;
+    font-size: 34px;
+}
+h3{font-size: 24px;}
+h4{font-size: 20px;}
+h5{font-size: 18px;}
+h6{
+    font-weight: 500;
+    font-size: 16px;
+}
+p{font-size: 12px;}
+
+/* Controls */
+button{
+    padding: 5px 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+.accentbutton{
+    background: var(--accentcolor);
+    color: #FFFFFF;
+}
