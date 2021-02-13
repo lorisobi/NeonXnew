@@ -1,34 +1,36 @@
 {
-    "short_name": "Neon X",
-    "name": "Neon X",
-    "icons": [
-      {
-        "src": "Assets/Icons/logo-192.png",
-        "type": "image/png",
-        "sizes": "192x192"
-      },
-      {
-        "src": "Assets/Icons/logo-512.png",
-        "type": "image/png",
-        "sizes": "512x512"
-      }
-    ],
-    "start_url": "/NeonX/index.html",
-    "background_color": "#FFFFFF",
-    "display": "standalone",
-    "scope": "/NeonX",
-    "theme_color": "#0085ff",
-    "description": "Neon X Progressive Web App",
-    "screenshots": [
-      {
-        "src": "/ReadMe/readme.png",
-        "type": "image/png",
-        "sizes": "1500x1000"
-      },
-      {
-        "src": "/ReadMe/readmedark.png",
-        "type": "image/jpg",
-        "sizes": "1500x1000"
-      }
-    ]
-  }
+  "short_name": "Neon X",
+  "name": "Neon X",
+  "icons": [
+    {
+      "src": "https://neon-studios.github.io/NeonX/Assets/Icons/logo-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://neon-studios.github.io/NeonX/Assets/Icons/logo-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/NeonX/index.html",
+  "background_color": "#FFFFFF",
+  "display": "standalone",
+  "scope": "/NeonX",
+  "theme_color": "#0085ff",
+  "description": "Neon X Progressive Web App",
+  "screenshots": [
+    {
+      "src": "https://neon-studios.github.io/ReadMe/readme.png",
+      "type": "image/png",
+      "sizes": "1500x1000"
+    },
+    {
+      "src": "https://neon-studios.github.io/ReadMe/readmedark.png",
+      "type": "image/jpg",
+      "sizes": "1500x1000"
+    }
+  ],
+  "url": "https://neon-studios.github.io/NeonX/",
+  "lang": ""
+}
